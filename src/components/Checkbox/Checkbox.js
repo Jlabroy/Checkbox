@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
+import { oneLine } from "common-tags";
 import "./styles.css";
 
 class Checkbox extends PureComponent {
@@ -80,7 +81,7 @@ class Checkbox extends PureComponent {
     return (
       <div
         onClick={this.handleClick}
-        className={`
+        className={oneLine`
           checkbox
           checkbox--state-${isChecked ? "active" : "inactive"}
           checkbox--type-${isDisabled ? "disabled" : "enabled"}
