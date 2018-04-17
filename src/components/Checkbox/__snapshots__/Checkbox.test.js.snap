@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox test suite Doesn't update if disabled when clicked 1`] = `
+<div
+  className="checkbox checkbox--state-inactive checkbox--type-disabled"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox__box"
+  />
+</div>
+`;
+
+exports[`Checkbox test suite matches snapshot - additional classes 1`] = `
+<div
+  className="checkbox checkbox--state-inactive checkbox--type-enabled additional"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox__box"
+  />
+</div>
+`;
+
+exports[`Checkbox test suite matches snapshot - before and after click 1`] = `
+<div
+  className="checkbox checkbox--state-active checkbox--type-enabled"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox__box"
+  />
+  <div
+    className="checkbox__label"
+  >
+    Test label
+  </div>
+</div>
+`;
+
+exports[`Checkbox test suite matches snapshot - default checked 1`] = `
+<div
+  className="checkbox checkbox--state-active checkbox--type-enabled"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox__box"
+  />
+</div>
+`;
+
+exports[`Checkbox test suite matches snapshot - default disabled 1`] = `
+<div
+  className="checkbox checkbox--state-inactive checkbox--type-disabled"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox__box"
+  />
+</div>
+`;
+
+exports[`Checkbox test suite matches snapshot - with label 1`] = `
+<div
+  className="checkbox checkbox--state-inactive checkbox--type-enabled"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox__box"
+  />
+  <div
+    className="checkbox__label"
+  >
+    Test label
+  </div>
+</div>
+`;
+
+exports[`Checkbox test suite matches snapshot 1`] = `
+<div
+  className="checkbox checkbox--state-inactive checkbox--type-enabled"
+  onClick={[Function]}
+>
+  <div
+    className="checkbox__box"
+  />
+</div>
+`;
